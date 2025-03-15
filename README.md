@@ -9,8 +9,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fc9158f3-4ecb-41c4-a78d-e7f5c2083576/deploy-status)](https://app.netlify.com/sites/lovely-parfait-936d96/deploys)
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
