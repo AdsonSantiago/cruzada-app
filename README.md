@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+# cruzada-app
+=======
+>>>>>>> e3a871e (resolved)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -9,7 +15,12 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
+<<<<<<< HEAD
 [![Netlify Status](https://api.netlify.com/api/v1/badges/fc9158f3-4ecb-41c4-a78d-e7f5c2083576/deploy-status)](https://app.netlify.com/sites/lovely-parfait-936d96/deploys)
+=======
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+>>>>>>> e3a871e (resolved)
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
@@ -67,3 +78,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<<<<<<< HEAD
+=======
+>>>>>>> 6ed37d3 (Initialize project using Create React App)
+>>>>>>> e3a871e (resolved)
