@@ -1,0 +1,14 @@
+{
+    "users": {
+      "01": {
+        "age": 29,
+        "email": "joao@gmail.com",
+        "name": "Joao S"
+      },
+      "02": {
+        "age": 27,
+        "email": "maria@gmail.com",
+        "name": "Maria"
+      }
+    }
+  }
