@@ -9,7 +9,12 @@
 
 =======================
 Backend: Railway
+
+
 Front-end: Netlify
+https://cruzada-app.netlify.app/
+
+
 Banco: Firebase
 =======================
 
