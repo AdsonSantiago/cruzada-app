@@ -1,17 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import Home from './pages/Home/';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'; // Importe o React Router
+import './index.scss';
+import Home1 from './pages/Home1';
+import Cadastro from './pages/Cadastro';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Home />
+    <BrowserRouter> {/* Envolva as rotas com BrowserRouter */}
+      <Routes>
+        <Route path="/" element={<Home1 />} /> {/* Rota da página inicial */}
+        <Route path="/cadastro" element={<Cadastro />} /> {/* Rota da página de cadastro */}
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
