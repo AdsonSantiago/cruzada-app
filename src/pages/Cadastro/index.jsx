@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { database } from '../../firebase';
 import { ref, onValue, push } from 'firebase/database';
-import './style.css';
+import { ArrowLeft } from '../../components/arrow-left.jsx';
+import './style.scss';
 import Trash from '../../assets/trash.svg';
 
 function Home() {
@@ -65,7 +66,11 @@ function Home() {
 
   return (
     <div className='container'>
+      <div>
+        <ArrowLeft />
+      </div>
       <h1>Meu Web-App</h1>
+
       <form onSubmit={handleAddUser}>
         <h1>Cadastro de Convidados</h1>
         <input

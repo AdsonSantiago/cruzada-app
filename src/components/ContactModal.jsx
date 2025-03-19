@@ -11,16 +11,17 @@ function ContactModal({ isOpen, onClose }) {
         <p>Email: contato@exemplo.com</p>
         <p>Phone: (11) 1234-5678</p>
         <p>Address: Rua Exemplo, 123 - São Paulo, SP</p>
-        
+
         <button onClick={onClose}>
-        <div className='btn-face-white'>
-        Close
-        </div>
-        <div className='btn-face-purple'>
-        Close
-        </div>
+          <div className='btn-face-white'>
+            Close
+          </div>
+          <div className='btn-face-purple'>
+            Close
+          </div>
         </button>
-      </div> 
+        
+      </div>
     </div>
   );
 }

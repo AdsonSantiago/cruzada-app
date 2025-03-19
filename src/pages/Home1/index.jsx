@@ -33,11 +33,11 @@ function Home1() {
             <a href="#portfolio" role="button" tabIndex="0">Portfolio</a>            </nav>
             <button onClick={openModal}> {/* Abre o modal ao clicar */}
             <div className='btn-face-white'>
-                Contact us
+                Contato
                 <ArrowIcon />
             </div>
             <div className='btn-face-purple'>
-                Contact us
+                Contato
                 <ArrowIcon />
             </div>
             </button>
