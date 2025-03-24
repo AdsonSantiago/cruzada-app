@@ -69,10 +69,9 @@ function Home() {
       <div>
         <ArrowLeft />
       </div>
-      <h1>Meu Web-App</h1>
 
       <form onSubmit={handleAddUser}>
-        <h1>Cadastro de Convidados</h1>
+        <h1>Cadastro de Participantes</h1>
         <input
           placeholder='Nome'
           name='nome'

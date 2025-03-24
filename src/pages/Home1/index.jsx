@@ -30,7 +30,7 @@ function Home1() {
             <nav className='menu-options'>
             <Link to="/cadastro">What we offer</Link>
             <a href="#how-it-works" role="button" tabIndex="0">How it works</a>
-            <a href="#portfolio" role="button" tabIndex="0">Portfolio</a>            </nav>
+            <Link to="/portfolio" role="button" tabIndex="0">Portfolio</Link>            </nav>
             <button onClick={openModal}> {/* Abre o modal ao clicar */}
             <div className='btn-face-white'>
                 Contato
