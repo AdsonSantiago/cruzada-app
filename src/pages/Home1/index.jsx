@@ -29,8 +29,9 @@ function Home1() {
             </div>
             <nav className='menu-options'>
             <Link to="/cadastro">What we offer</Link>
-            <a href="#how-it-works" role="button" tabIndex="0">How it works</a>
-            <Link to="/portfolio" role="button" tabIndex="0">Portfolio</Link>            </nav>
+            <Link to="/mobilidade" role="button" tabIndex="0">Automação de Mobilidade</Link>
+            <Link to="/portfolio" role="button" tabIndex="0">Portfolio</Link>
+            </nav>
             <button onClick={openModal}> {/* Abre o modal ao clicar */}
             <div className='btn-face-white'>
                 Contato
