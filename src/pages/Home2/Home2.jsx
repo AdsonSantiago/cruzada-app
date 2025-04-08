@@ -1,8 +1,16 @@
 import React from "react";
-import Navbar from "../../components/Navbar";
+import Navbar from "./Navbar.jsx";
+import "./index.scss"
 
-const Home2 = () => {
-    return <div>
-        <Navbar />
-    </div>
+function Home2() {
+    return (
+        <div>
+            <div>
+
+                <Navbar />
+            </div>
+        </div>
+    ) 
 }
+
+export default Home2;
