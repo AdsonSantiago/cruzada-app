@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar.jsx";
+import HeroImg from "./HeroImg.jsx";
 import "./index.scss"
 
 function Home2() {
@@ -8,6 +9,7 @@ function Home2() {
             <div>
 
                 <Navbar />
+                <HeroImg />
             </div>
         </div>
     ) 
