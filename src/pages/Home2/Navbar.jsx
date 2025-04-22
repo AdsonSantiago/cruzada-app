@@ -32,13 +32,13 @@ function Navbar() {
                         <Link to="/portfolio">Home</Link>
                     </li>
                     <li>
-                        <Link to="/projeto">Projetos</Link>
+                        <Link to="/project">Projetos</Link>
                     </li>
                     <li>
                         <Link to="/about">Sobre</Link>
                     </li>
                     <li>
-                        <Link to="/contato">Contato</Link>
+                        <Link to="/contact">Contato</Link>
                     </li>
                 </ul>
                 <div className="hamburger" onClick={handleClick}>

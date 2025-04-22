@@ -6,6 +6,9 @@ import Home1 from './pages/Home1';
 // import PortFolio from './pages/Portfolio';
 import Cadastro from './pages/Cadastro';
 import Home2 from './pages/Home2/Home2';
+import Project from './pages/Home2/Project';
+import Contact from './pages/Home2/Contact';
+import About from './pages/Home2/About';
 import Mobilidade from './pages/Mobilidade'
 import reportWebVitals from './reportWebVitals';
 
@@ -18,6 +21,9 @@ root.render(
       <Route path="/cadastro" element={<Cadastro />} />
       <Route path="/portFolio" element={<Home2 />} />  {/* Padronize para lowercase */}
       <Route path="/mobilidade" element={<Mobilidade />} />
+      <Route path="/project" element={<Project />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/about" element={<About />} />
       {/* Adicione as rotas que estão no Navbar */}
       {/* <Route path="/projeto" element={<Projeto />} />
       <Route path="/about" element={<About />} />
